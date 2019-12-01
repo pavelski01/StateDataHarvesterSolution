@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestApp", "ConsoleTestApp\ConsoleTestApp.csproj", "{868BCD0D-0AB2-45F8-BFA8-B7A6E013AD52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GusLibrary", "GusLibrary\GusLibrary.csproj", "{6C7B3A35-0FA0-4A50-B383-8629FE36A0A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtoLibrary", "DtoLibrary\DtoLibrary.csproj", "{3537B75F-1084-4A85-8435-CFFC2052432F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MfLibrary", "MfLibrary\MfLibrary.csproj", "{85FE865C-F946-4835-A394-AC957C813BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayerLibrary", "DataLayerLibrary\DataLayerLibrary.csproj", "{24498A15-E07E-432C-B7D1-8F4682D60E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateDataHarvesterWebApplication", "StateDataHarvesterWebApplication\StateDataHarvesterWebApplication.csproj", "{93381BDE-BC66-423A-964E-06AE90D51C00}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{868BCD0D-0AB2-45F8-BFA8-B7A6E013AD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868BCD0D-0AB2-45F8-BFA8-B7A6E013AD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868BCD0D-0AB2-45F8-BFA8-B7A6E013AD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868BCD0D-0AB2-45F8-BFA8-B7A6E013AD52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7B3A35-0FA0-4A50-B383-8629FE36A0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7B3A35-0FA0-4A50-B383-8629FE36A0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7B3A35-0FA0-4A50-B383-8629FE36A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7B3A35-0FA0-4A50-B383-8629FE36A0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3537B75F-1084-4A85-8435-CFFC2052432F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3537B75F-1084-4A85-8435-CFFC2052432F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3537B75F-1084-4A85-8435-CFFC2052432F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3537B75F-1084-4A85-8435-CFFC2052432F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85FE865C-F946-4835-A394-AC957C813BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FE865C-F946-4835-A394-AC957C813BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FE865C-F946-4835-A394-AC957C813BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FE865C-F946-4835-A394-AC957C813BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24498A15-E07E-432C-B7D1-8F4682D60E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24498A15-E07E-432C-B7D1-8F4682D60E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24498A15-E07E-432C-B7D1-8F4682D60E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24498A15-E07E-432C-B7D1-8F4682D60E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93381BDE-BC66-423A-964E-06AE90D51C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93381BDE-BC66-423A-964E-06AE90D51C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93381BDE-BC66-423A-964E-06AE90D51C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93381BDE-BC66-423A-964E-06AE90D51C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
